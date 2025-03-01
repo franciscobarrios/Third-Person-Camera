@@ -58,4 +58,5 @@ crashlytics-build.properties
 obj/
 /Logs
 .idea/
-.DS_Stor
+.DS_Store
+.gitignore.swp
