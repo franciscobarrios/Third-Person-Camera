@@ -60,3 +60,4 @@ obj/
 .idea/
 .DS_Store
 .gitignore.swp
+Assets/README.md.meta
