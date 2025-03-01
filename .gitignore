@@ -55,5 +55,7 @@ crashlytics-build.properties
 #Library
 /Library
 /Temp
-Temp/FSTimeGet-59b502148c35542418cd380113de86e1
-.DS_Store
+obj/
+/Logs
+.idea/
+.DS_Stor
