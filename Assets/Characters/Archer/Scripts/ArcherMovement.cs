@@ -78,6 +78,9 @@ public class ArcherMovement : MonoBehaviour
         _isMovementPressed = _currentMovementInput.x != 0 || _currentMovementInput.y != 0;
         _currentRunMovement.x = _currentMovementInput.x * runSpeed;
         _currentRunMovement.z = _currentMovementInput.y * runSpeed;
+        
+        _currentMovement = transform.TransformDirection(_currentMovement);
+        _currentRunMovement = transform.TransformDirection(_currentRunMovement);
     }
 
     private void OnRun(InputAction.CallbackContext context)
